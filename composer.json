@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "technic\\test\\": ""
+            "technic\\test\\": "yii2-test"
         }
     }
 }
