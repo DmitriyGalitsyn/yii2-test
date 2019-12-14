@@ -1,6 +1,8 @@
 <?php
 namespace technic\test\widgets\getTests;
 
+use yii\data\ActiveDataProvider;
+use technic\test\models\Questions;
 use yii\base\Widget;
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -17,6 +19,15 @@ class GetTests extends Widget{
     
     public function run() {
         
-        return $this->render('get-tests');
+        $dataProvider = new ActiveDataProvider([
+            'query' => Questions::find()->orderBy('rand()')->limit(10),
+            'pagination' => false,
+        ]);
+        
+        \technic\test\AppAsset::register($this->view);
+        
+        return $this->render('get-tests',[
+            'dataProvider' => $dataProvider
+        ]);
     }
 }

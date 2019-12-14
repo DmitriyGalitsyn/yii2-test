@@ -1,0 +1,125 @@
+a{
+    cursor: pointer;
+}
+
+.border
+{
+   border: 1px solid silver;
+  
+   padding: 15px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   margin-bottom: 15px;
+   background:  white;
+}
+
+
+.title
+{
+    text-align: center;
+}
+
+.title-delete
+{
+    text-align: right;
+}
+
+
+.admin-category
+{
+    text-align: center;
+}
+
+.size-image
+{
+    height: 100px;
+    width: 100px;
+}
+
+.size-image-admin{
+ 
+    width: 200px;
+   
+}
+
+.size-image-admin{
+ 
+    width: 200px;
+   
+}
+
+.size-image-products
+{
+  width:70px;
+}
+
+.size-image-brand
+{
+  width:200px;
+}
+
+.size-image-social
+{
+    width: 24px;
+}
+
+.size-image-view
+{
+  width:200px;
+}
+
+.size-image-slider
+{
+    width:960px;
+    height: 400px;
+}
+
+/*body{
+background: url(/images/fitness-sports.jpg) ;
+}*/
+
+.background-order{
+    background: white;
+}
+.background{
+    background: blue;
+}
+
+
+.prokrutka {
+overflow: auto; /* свойство для прокрутки по горизонтали. Автоматом, если содержимое больше блока */
+}
+
+body{
+background: url(/images/fitness-sports.jpg) ;
+}
+
+.header-admin
+{
+    text-align: center;
+    color: #357ebd;
+    font-size: 20px;
+}
+
+.title-breadcrumbs
+{
+    text-align: center;
+    font-size: 20px;
+    color: green;
+}
+
+.round {
+    border-radius: 100px; /* Радиус скругления */
+    border: 3px solid green; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+   }
+   
+   .background-img{
+       padding: 10px;
+   }
+   
+   .size-image-background{
+       width: 200px;
+       text-align: center;
+   }
+
+  
